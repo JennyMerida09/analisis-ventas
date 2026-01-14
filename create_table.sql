@@ -1,3 +1,10 @@
+-- =========================================
+-- Proyecto: Análisis de ventas
+-- Archivo: create_table.sql
+-- Base de datos: SQLite
+-- Autora: Jennifer Merida
+-- =========================================
+
 DROP TABLE IF EXISTS ventas;
 
 CREATE TABLE ventas (
