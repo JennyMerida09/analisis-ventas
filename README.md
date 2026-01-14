@@ -1,5 +1,5 @@
-# analisis-ventas-sql
-Análisis sobre un conjuntos de datos de ventas para identificar patrones de facturación, productos y categorías más relevantes, comportamiento mensual y métodos de pago, con el fin de realizar la toma de decisiones comerciales.
+# Analisis de ventas-sql
+Análisis sobre un conjunto de datos sobre ventas para identificar patrones de facturación, productos y categorías más relevantes, comportamiento mensual y métodos de pago, con el fin de realizar la toma de decisiones comerciales.
 
 # Dashboard de Ventas – Power BI
 
@@ -77,4 +77,6 @@ Vista general del dashboard:
 
 ## Notas
 
-Proyecto realizado con fines educativos y de práctica en análisis de datos.
+Las consultas SQL respaldan y validan los resultados presentados en el dashboard de Power BI.
+
+Proyecto realizado con fines de práctica en análisis de datos.
