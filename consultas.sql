@@ -10,6 +10,7 @@ SELECT strftime('%Y-%m', fecha) AS mes, SUM(monto) AS facturacion
 FROM ventas
 GROUP BY mes
 ORDER BY mes;
+
 -- --------------------------------------------------------
 
 --2. Facturación por categoría
@@ -17,6 +18,7 @@ SELECT categoria, SUM(monto) AS facturacion
 FROM ventas
 GROUP BY categoria
 ORDER BY facturacion DESC;
+
 -- --------------------------------------------------------
 
 --3. Facturación por producto
@@ -82,6 +84,7 @@ GROUP BY metodo_pago;
 --10. Ticket promedio
 SELECT ROUND(AVG(monto), 1) AS ticket_promedio
 FROM ventas
+
 
 
 
